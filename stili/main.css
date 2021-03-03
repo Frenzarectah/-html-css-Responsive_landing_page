@@ -1,0 +1,18 @@
+@import url('mobile.css');
+@import url('flex-utility.css');
+
+.container{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+}
+.head_{
+    position:absolute;
+    left:470px;
+    border:1px black solid;
+    width:993px;
+    height:665px;
+    background-image: url('../imgs/phones.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
