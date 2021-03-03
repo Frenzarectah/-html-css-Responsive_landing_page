@@ -1,18 +1,32 @@
 @import url('mobile.css');
 @import url('flex-utility.css');
 
+
 .container{
+    margin:0px;
     width:100%;
     display:flex;
     flex-direction:row;
 }
 .head_{
-    position:absolute;
-    left:470px;
-    border:1px black solid;
-    width:993px;
+    /*width:950px;*/
     height:665px;
+    border:1px black solid;
     background-image: url('../imgs/phones.png');
     background-repeat: no-repeat;
     background-size: cover;
+}
+.bg_azure{
+    background-color:#f4f6f9;
+}
+.logo{
+    display:flex;
+    justify-content: left;
+    padding-top:10px;
+    padding-left:50px;
+    width:99px;
+    height:32px;
+}
+.fullpage{
+    width:100%;
 }

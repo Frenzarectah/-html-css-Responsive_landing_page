@@ -1,10 +1,15 @@
+/*foglio di stile dedicato agli schermi da cellulare*/
 @media only screen and (max-width:500px){
     
 .container{
     flex-direction:column;
 }    
-.head{
-    display:none;
+.head_{
+    background-image:none;
+}
+.logo{
+    display:flex;
+    align-self: center;
 }
 
 
