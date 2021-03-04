@@ -1,31 +1,23 @@
 /*foglio di stile dedicato agli schermi da cellulare*/
-@media only screen and (max-width:500px){
-  
+@media only screen and (min-width:275px) and (max-width:500px){
+
 .container{
     display:flex;
-    justify-content: space-between;
-    flex-direction:column;
-
-}    
-.logo{
-    align-self: center;
-}
+    flex-direction: column;
+    align-items: center;
+} 
 .head{
-    display:none; !important;
-}
-p{
-    align-self:center;
-}
+    background-image: none !important;
+}  
 .box{
-    width:100%;
+    margin:5px 5px 5px 5px;
+    border:1px solid red;
 }
-
-
-
-
-
-
-
-
-
+.underbox{
+    width:100%;
+    border:1px solid black;
+}
+.border{
+    margin:0;
+}
 }

@@ -2,35 +2,32 @@
 @import url('flex-utility.css');
 @import url('textstile.css');
 
-
-
 .container{
     display:flex;
-    flex-direction:row;
-}
-.head{
-    position:absolute;
-    left:30%;
-    width:993px;
-    height:668px;
-    background-image: url('../imgs/phones.png');
-    background-repeat: no-repeat;
-    background-position: right;
+    flex-direction: row;
 }
 .bg_azure{
     background-color:#f4f6f9;
+}
+.head{
+    position:absolute;
+    right:0;
+    height:663px;
+    background-image: url('../imgs/phones.png');
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .logo{
     width:99px;
     height:32px;
 }
 .border{
-    margin-top:40px;
-    margin-left:50px;
-}
-.fullpage{
-    width:100%;
+    margin-left:30px;
+    margin-top:30px;
 }
 .box{
-    width:500px;
+    width:100%;
+}
+.underbox{
+    width:50%;
 }
