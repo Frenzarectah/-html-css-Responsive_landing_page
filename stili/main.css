@@ -1,33 +1,61 @@
-@import url('mobile.css');
 @import url('flex-utility.css');
 @import url('textstile.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 .container{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .bg_azure{
     background-color:#f4f6f9;
 }
-.head{
-    position:absolute;
-    right:0;
-    height:663px;
-    background-image: url('../imgs/phones.png');
+.phones{
+    background-image:url('../imgs/phones.png');
     background-repeat: no-repeat;
     background-position: right;
 }
-.logo{
-    width:99px;
-    height:32px;
-}
-.border{
-    margin-left:30px;
-    margin-top:30px;
+.riga1{
+    width:100%;
+    height:550px;
 }
 .box{
-    width:100%;
+    padding-top:15px;
+    padding-left:60px;
+    width:33%;
+    height:inherit;
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    border:1px black solid;
 }
-.underbox{
-    width:50%;
+.lato{
+    font-family:'Lato';
+}
+.bold{
+    font-weight: bold;
+}
+.btn_contain{
+    width:350px;
+}
+
+@media only screen and (min-width:275px) and (max-width:500px){ /**STILE PER MOBILE ***/
+
+p{
+    text-align:center;
+}
+.btn_contain{
+    width:inherit;
+}
+.btn{
+    width:25%;
+    height:auto;
+}
+.phones{
+    background-image:none;
+}
+.box{
+    padding:0;
+    width:100%;
+    align-items:center;
+}
 }
