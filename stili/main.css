@@ -26,6 +26,7 @@
     display:flex;
     flex-direction:column;
     align-items: flex-start;
+    justify-content: space-around;
     border:1px black solid;
 }
 .lato{
@@ -35,8 +36,19 @@
     font-weight: bold;
 }
 .btn_contain{
+    display:flex;
+    justify-content: space-between;
     width:350px;
 }
+.titol_size{
+    font-size:30px;
+}
+.under_size{
+    font-size:18px;
+}
+.normal{
+    font-weight: normal;
+} 
 
 @media only screen and (min-width:275px) and (max-width:500px){ /**STILE PER MOBILE ***/
 
@@ -44,10 +56,11 @@ p{
     text-align:center;
 }
 .btn_contain{
-    width:inherit;
+    width:90%;
+    justify-content: space-between;
 }
 .btn{
-    width:25%;
+    width:45%;
     height:auto;
 }
 .phones{
@@ -57,5 +70,13 @@ p{
     padding:0;
     width:100%;
     align-items:center;
+}
+.titol_size{
+    font-size:30px;
+    letter-spacing: 3%;
+}
+.under_size{
+    font-size:16px;
+    margin:10px;
 }
 }
