@@ -15,25 +15,31 @@
     background-position: right;
 }
 .footplayer{
-    background-image: url("../imgs/footplayer.jpg"), linear-gradient(to right,rgba(255,255,255,0),rgba(255,255,255,1));
-    /*background-image:url('../imgs/footplayer.jpg');*/
+    background-image: url("../imgs/footplayer.jpg");
     background-repeat:no-repeat;
     background-position:left;
 }
 .riga1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
     width:100%;
     height:550px;
 }
 .box{
     padding-top:15px;
     padding-left:60px;
-    width:33%;
+    width:35%;
     height:inherit;
     display:flex;
     flex-direction:column;
     align-items: flex-start;
     justify-content: space-around;
     border:1px black solid;
+}
+.nobord{
+    padding-top:20px;
+    padding-left:0;
 }
 .lato{
     font-family:'Lato';
@@ -55,11 +61,18 @@
 .normal{
     font-weight: normal;
 } 
+.imm{
+    width:auto;
+    height:550px;
+}
 
 @media only screen and (min-width:275px) and (max-width:500px){ /**STILE PER MOBILE ***/
 
 p{
     text-align:center;
+}
+.riga1{
+    flex-direction: column;
 }
 .btn_contain{
     width:90%;
@@ -71,6 +84,9 @@ p{
 }
 .phones{
     background-image:none;
+}
+.rev_col{
+    flex-direction:column-reverse !important;
 }
 .box{
     padding:0;
@@ -84,5 +100,9 @@ p{
 .under_size{
     font-size:16px;
     margin:10px;
+}
+.imm{
+    width:100%;
+    height:auto;
 }
 }
