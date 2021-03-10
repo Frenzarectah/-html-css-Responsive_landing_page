@@ -15,9 +15,11 @@
     background-position: right;
 }
 .footplayer{
+    width:55% !important;
     background-image: url("../imgs/footplayer.jpg");
     background-repeat:no-repeat;
     background-position:left;
+    background-size: cover;
 }
 .riga1{
     display:flex;
@@ -65,6 +67,17 @@
     width:auto;
     height:550px;
 }
+.window{
+    position:relative;
+    top:-95px;
+    left:80px;
+    width:360px;
+    height:180px;
+    background-color:white;
+}
+.video{
+    background-image:url('../imgs/video.jpg');
+}
 
 @media only screen and (min-width:275px) and (max-width:500px){ /**STILE PER MOBILE ***/
 
@@ -104,5 +117,9 @@ p{
 .imm{
     width:100%;
     height:auto;
+}
+.window{
+    width:247px;
+    height:149px;
 }
 }
