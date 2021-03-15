@@ -84,7 +84,6 @@
 .playbar{
     display:flex;
     flex-direction:row;
-    justify-content: center;
     align-self: flex-end;
     width:100%;
     height:40px;
@@ -98,6 +97,13 @@
 }
 .video{
     background-image:url('../imgs/video.jpg');
+    background-size: cover;
+}
+.icon{
+    width:20px;
+}
+.tmln{
+    width:172px;
 }
 
 @media only screen and (min-width:275px) and (max-width:500px){ /**STILE PER MOBILE ***/
@@ -145,5 +151,17 @@ p{
 }
 .footplayer{
     width:100% !important;
+}
+.icon{
+    width:13px;
+}
+.pos1{
+    position:relative;
+    left:-10%;
+}
+.pos2{
+    position: relative;
+    top:-13%;
+    left:3%;
 }
 }
