@@ -9,6 +9,9 @@
 .bg_azure{
     background-color:#f4f6f9;
 }
+.red{
+    color: #4f4f4f;
+}
 .phones{
     background-image:url('../imgs/phones.png');
     background-repeat: no-repeat;
@@ -105,7 +108,12 @@
 .tmln{
     width:172px;
 }
-
+.contain{
+    border:1px black solid;
+    width:30px;
+    margin-top:25px;
+    margin-left:15px;
+}
 @media only screen and (min-width:275px) and (max-width:500px){ /**STILE PER MOBILE ***/
 
 p{
