@@ -123,9 +123,8 @@
     background-color:#eeeeee;
 }
 .shields{
-    margin-left:230px;
     border: 1px black solid;
-    flex-direction: row;
+    height:83px;
 }
 
 @media only screen and (min-width:275px) and (max-width:500px){ /**STILE PER MOBILE ***/
