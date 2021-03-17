@@ -119,12 +119,16 @@
     display: flex;
     align-self: flex-end;
     width:100%;
-    height:70px;
+    height:90px;
     background-color:#eeeeee;
 }
 .shields{
-    border: 1px black solid;
+    margin-left:80px;
+    margin-top:40px;
     height:83px;
+}
+.cnt{
+    height:150px;
 }
 
 @media only screen and (min-width:275px) and (max-width:500px){ /**STILE PER MOBILE ***/
@@ -176,6 +180,9 @@ p{
 .icon{
     width:13px;
 }
+.cnt{
+    height:90px;
+}
 .pos1{
     position:relative;
     left:-10%;
@@ -184,5 +191,17 @@ p{
     position: relative;
     top:-13%;
     left:3%;
+}
+.contain{
+    width:30px;
+    height:250px;
+    margin-top:15px;
+    margin-left:15px;
+}
+.shields{
+    margin-top:20px;
+    margin-left:35px;
+    width:57px;
+    height:57px;
 }
 }
