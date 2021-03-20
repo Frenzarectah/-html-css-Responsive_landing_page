@@ -14,11 +14,16 @@
 }
 .blue{
     color:#00ADEE;
+    text-decoration: none;
 }
 .phones{
     background-image:url('../imgs/phones.png');
     background-repeat: no-repeat;
     background-position: right;
+}
+.celli{
+    position:relative;
+    top:-500px;
 }
 .footplayer{
     width:55% !important;
@@ -32,13 +37,13 @@
     flex-direction: row;
     justify-content: space-between;
     width:100%;
-    padding-bottom:300px;
+    /*padding-bottom:200px;*/
 }
 .box{
     padding-top:15px;
     padding-left:60px;
     width:35%;
-    /*height:inherit*/
+    padding-bottom:100px;
     display:flex;
     flex-direction:column;
     align-items: flex-start;
@@ -158,7 +163,7 @@ p{
 }
 .box{
     padding:0;
-    height:600px;
+    height:500px;
     width:100%;
     align-items:center;
 }
