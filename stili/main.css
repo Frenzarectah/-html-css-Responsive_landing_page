@@ -21,10 +21,6 @@
     background-repeat: no-repeat;
     background-position: right;
 }
-.celli{
-    position:relative;
-    top:-500px;
-}
 .footplayer{
     width:55% !important;
     background-image: url("../imgs/footplayer.jpg");
@@ -137,6 +133,20 @@
 .cnt{
     height:150px;
 }
+.circle{
+    display:none;
+}
+.circle1{
+    position:relative;
+    top:20px;
+    background-size: 100% auto;
+    background-image: url('../imgs/Ellipses.png');
+    background-repeat: no-repeat;
+}
+.cell{
+    position:relative;
+    top:-45px;
+}
 
 @media only screen and (min-width:275px) and (max-width:500px){ /**STILE PER MOBILE ***/
 
@@ -216,5 +226,16 @@ p{
 .nobord{
     padding-top:0;
     padding-left:0;
+}
+.circle{
+    display:block;
+}
+.cell{
+    display:none;
+}
+.circle1{
+    width:100%;
+    height:auto;
+    background-image: none;
 }
 }
