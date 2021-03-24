@@ -176,7 +176,10 @@
     left:70px;
     z-index:2;
 }
-
+.feat{
+    background-image:url('../imgs/bkgnd.jpg');
+    background-size:cover;
+}
 @media only screen and (min-width:275px) and (max-width:500px){ /**STILE PER MOBILE ***/
 
 p{
@@ -228,6 +231,7 @@ p{
 }
 .footplayer{
     width:100% !important;
+    height:360px;
 }
 .icon{
     width:13px;
@@ -264,11 +268,26 @@ p{
     display:none;
 }
 .cell{
-    justify-self: flex-start;
+    position:relative;
+    top:-60px;
+    left:-15px;
     width:220px;
     height:411px;
 }
 .circle1{
     height:400px;
+}
+.bell{
+    position:relative;
+    left:-70px;
+    top:100px;
+    width:70px;
+    height:70px;
+}
+.download{
+    position:relative;
+    top:270px;
+    width:70px;
+    height:70px;
 }
 }
