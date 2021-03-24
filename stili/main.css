@@ -58,8 +58,8 @@
     width:60px;
     height:60px;        
     position:relative;
-    top:445px;
-    left:0px;
+    left:-285px;
+    top:340px;   
 }
 .bold{
     font-weight: bold;
@@ -146,8 +146,8 @@
     display:none;
 }
 .circle1{
-    position:relative;
-    top:20px;
+    align-items:center;
+    justify-content: center;
     background-size: 100% auto;
     background-image: url('../imgs/Ellipses.png');
     background-repeat: no-repeat;
@@ -156,9 +156,8 @@
     width:280px;
     height:513px;
     position:relative;
-    left:60px;
-    bottom:30px;
-
+    left:-40px;
+    top:-30px;
 }
 
 @media only screen and (min-width:275px) and (max-width:500px){ /**STILE PER MOBILE ***/
@@ -247,16 +246,12 @@ p{
 .point{
     display:none;
 }
-.circle{
-    display:block;
-    width:85%;
-
-}
 .cell{
-    position:relative;
-    right:140px;
+    justify-self: flex-start;
     width:220px;
     height:411px;
 }
-
+.circle1{
+    height:400px;
+}
 }
