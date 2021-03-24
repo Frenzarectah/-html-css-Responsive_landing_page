@@ -16,6 +16,10 @@
     color:#00ADEE;
     text-decoration: none;
 }
+.logo{
+    width:72px;
+    height:25px;
+}
 .phones{
     background-image:url('../imgs/phones.png');
     background-repeat: no-repeat;
@@ -33,7 +37,6 @@
     flex-direction: row;
     justify-content: space-between;
     width:100%;
-    /*padding-bottom:200px;*/
 }
 .box{
     padding-top:15px;
@@ -42,7 +45,6 @@
     padding-bottom:100px;
     display:flex;
     flex-direction:column;
-    align-items: flex-start;
     border:1px black solid;
 }
 .nobord{
@@ -51,6 +53,13 @@
 }
 .lato{
     font-family:'Lato';
+}
+.point{
+    width:60px;
+    height:60px;        
+    position:relative;
+    top:445px;
+    left:0px;
 }
 .bold{
     font-weight: bold;
@@ -144,14 +153,22 @@
     background-repeat: no-repeat;
 }
 .cell{
+    width:280px;
+    height:513px;
     position:relative;
-    top:-45px;
+    left:60px;
+    bottom:30px;
+
 }
 
 @media only screen and (min-width:275px) and (max-width:500px){ /**STILE PER MOBILE ***/
 
 p{
     text-align:center;
+}
+.logo{
+    width:99px;
+    height:32px;
 }
 .riga1{
     flex-direction: column;
@@ -227,6 +244,9 @@ p{
     padding-top:0;
     padding-left:0;
 }
+.point{
+    display:none;
+}
 .circle{
     display:block;
     width:85%;
@@ -234,8 +254,7 @@ p{
 }
 .cell{
     position:relative;
-    top:0px;
-    justify-self: center;
+    right:140px;
     width:220px;
     height:411px;
 }
