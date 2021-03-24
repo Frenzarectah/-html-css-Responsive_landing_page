@@ -58,8 +58,8 @@
     width:60px;
     height:60px;        
     position:relative;
-    left:-285px;
-    top:340px;   
+    left:-240px;
+    top:230px;   
 }
 .bold{
     font-weight: bold;
@@ -157,7 +157,24 @@
     height:513px;
     position:relative;
     left:-40px;
-    top:-30px;
+    top:-200px;
+    z-index:1;
+}
+.bell{
+    width:91px;
+    height:91px;
+    position:relative;
+    left:-120px;
+    top:90px;
+    z-index:2;
+}
+.download{
+    width:91px;
+    height:91px;
+    position:relative;
+    top:300px;
+    left:70px;
+    z-index:2;
 }
 
 @media only screen and (min-width:275px) and (max-width:500px){ /**STILE PER MOBILE ***/
