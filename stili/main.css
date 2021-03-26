@@ -12,9 +12,15 @@
 .red{
     color: #4f4f4f;
 }
+.white{
+    color:#ffffff;
+}
 .blue{
     color:#00ADEE;
     text-decoration: none;
+}
+.center{
+    justify-self: center;
 }
 .logo{
     width:72px;
@@ -37,6 +43,25 @@
     flex-direction: row;
     justify-content: space-between;
     width:100%;
+}
+.menu{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-left:165px;
+    padding-right:165px;
+    color:white;
+    background-image:url('../imgs/bkgnd.jpg');
+    background-size:cover;
+    height:735px;
+}
+.menu_line{
+    border:1px black solid;
+    display:flex;
+    width:100%;
+    flex-direction: row;
+    justify-content:space-between;
 }
 .high{
     height:580px;
@@ -180,10 +205,9 @@
     left:70px;
     z-index:2;
 }
-.feat{
-    background-image:url('../imgs/bkgnd.jpg');
-    background-size:cover;
-    height:735px;
+.icon{
+    width:40px;
+    height:40px;
 }
 @media only screen and (min-width:275px) and (max-width:500px){ /**STILE PER MOBILE ***/
 
@@ -297,8 +321,17 @@ p{
     width:70px;
     height:70px;
 }
-.feat{
+.menu{
+    width:100%;
+    display:flex;
+    flex-direction:column;
     background-color:#fafafa;
     background-image: none;
+    color:#000000;
+}
+.menu_line{
+    flex-direction:column;
+    align-items: center;
+    color:#000000;
 }
 }
