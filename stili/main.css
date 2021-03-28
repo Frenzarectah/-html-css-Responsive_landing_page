@@ -57,7 +57,7 @@
 .menu_line{
     border:1px black solid;
     display:flex;
-    width:85%;
+    width:90%;
     flex-direction: row;
     justify-content:space-between;
 }
@@ -206,14 +206,23 @@
 .ico{
     width:40px;
     height:40px;
+    margin-bottom:-15px;
 }
 .ico_m{
     display:none;
 }
+.menu_line_item{
+    display:flex;
+    flex-direction:column;
+    font-weight:bold;
+    width:311px;
+}
 @media only screen and (min-width:275px) and (max-width:500px){ /**STILE PER MOBILE ***/
 
 p{
-    text-align:center;
+    display:flex;
+    justify-content:center;
+    text-align: center;
 }
 .logo{
     width:99px;
@@ -338,5 +347,13 @@ p{
 }
 .ico{
     display:none;
+}
+.ico_m{
+    display:block;
+    margin-bottom:-15px;
+}
+.menu_line_item{
+    width:100%;
+    font-weight:bold;
 }
 }
