@@ -52,7 +52,7 @@
     color:white;
     background-image:url('../imgs/bkgnd.jpg');
     background-size:cover;
-    height:735px;
+    
 }
 .menu_line{
     border:1px black solid;
@@ -341,6 +341,7 @@ p{
     background-color:#fafafa;
     background-image: none;
     color:#000000;
+    
 }
 .menu_line{
     width:100%;
