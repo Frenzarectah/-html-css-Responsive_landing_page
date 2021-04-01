@@ -220,6 +220,10 @@
     font-weight:bold;
     width:311px;
 }
+.window{
+    margin:10px;
+    overflow: hidden;
+}
 @media only screen and (min-width:275px) and (max-width:500px){ /**STILE PER MOBILE ***/
 
 p{
@@ -342,6 +346,12 @@ p{
     background-image: none;
     color:#000000;
     
+}
+.window{
+    display:none;
+}
+.mobile{
+    display:block !important;
 }
 .menu_line{
     width:100%;
