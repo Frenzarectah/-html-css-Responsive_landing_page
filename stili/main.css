@@ -104,6 +104,9 @@
 .under_size{
     font-size:18px;
 }
+.bg_grey{
+    background-color:#fafafa;
+}
 .normal{
     font-weight: normal;
 } 
@@ -238,6 +241,12 @@
     width:137px;
     height:11px;
 }
+.brands{
+    width:90%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
 @media only screen and (min-width:275px) and (max-width:500px){ /**STILE PER MOBILE ***/
 
 p{
@@ -356,10 +365,8 @@ p{
     width:100%;
     display:flex;
     flex-direction:column;
-    background-color:#fafafa;
     background-image: none;
-    color:#000000;
-    
+    color:#000000;  
 }
 .window{
     display:none;
@@ -386,5 +393,12 @@ p{
 .menu_line_item{
     width:100%;
     font-weight:bold;
+}
+.a_left{
+    display:none;
+}
+.a_right{
+    position:relative;
+    left:280px;
 }
 }
