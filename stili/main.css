@@ -19,12 +19,20 @@
     color:#00ADEE;
     text-decoration: none;
 }
+.bg_blue{
+    background-color:#00ADEE;
+}
 .center{
     justify-self: center;
 }
 .logo{
     width:72px;
     height:25px;
+}
+a{
+    text-decoration:none;
+    color:#ffffff;
+    margin-right:15px;
 }
 .phones{
     background-image:url('../imgs/phones.png');
@@ -261,7 +269,13 @@
     align-items: center;
     justify-content: space-around;
 }
-
+.foot{
+    display:flex;
+    flex-direction:row;
+}
+.link{
+    width:375px;
+}
 @media only screen and (min-width:275px) and (max-width:500px){ /**STILE PER MOBILE ***/
 
 p{
@@ -291,7 +305,7 @@ p{
     background-image:none;
 }
 .rev_col{
-    flex-direction:column-reverse !important;
+    flex-direction:column-reverse /*!important*/;
 }
 .box{
     padding:0;
@@ -429,5 +443,12 @@ p{
     width:100%;
     align-items: center;
     justify-content: space-around;
+}
+.foot{
+    display:flex;
+    flex-direction:column;
+}
+.link{
+    width:95%;
 }
 }
