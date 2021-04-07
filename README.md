@@ -8,4 +8,6 @@ Used Technology:<br/>
 #CSS<br/>
 -BEM METHODOLOGY & REUSING<br/>
 
+link to the *Netlify* deploy: https://sportmobileapp.netlify.app/
+
 
