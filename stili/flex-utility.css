@@ -6,6 +6,9 @@
     display:flex;
     flex-direction:column;
 }
+.center{
+    justify-self: center;
+}
 .x_centered{
     display:flex;
     justify-content:center;

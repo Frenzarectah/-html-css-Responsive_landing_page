@@ -1,8 +1,5 @@
-@import url('flex-utility.css');
-@import url('textstile.css');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-
-
+@import url('flex-utility.css'); /**classi rapide per settaggi flexbox **/
+@import url('textstile.css'); /** classi per formattazione testo **/
 /*utility classes*/
 .red{
     color: #4f4f4f;
@@ -30,8 +27,9 @@
     padding-top:20px;
     padding-left:0;
 }
-.center{
-    justify-self: center;
+.text{
+    line-height:23px;
+    width:95%;
 }
 .logo{
     width:72px;
@@ -273,6 +271,8 @@ a{
 .foot{
     display:flex;
     flex-direction:row;
+    align-items:center;
+    height:90px;
 }
 .link{
     width:375px;
@@ -304,9 +304,6 @@ p{
 }
 .phones{
     background-image:none;
-}
-.rev_col{
-    flex-direction:column-reverse /*!important*/;
 }
 .box{
     padding:0;
@@ -378,6 +375,9 @@ p{
     left:-15px;
     width:220px;
     height:411px;
+}
+.rev_col{
+    flex-direction:column-reverse;
 }
 .circle1{
     height:400px;
