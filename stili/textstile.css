@@ -39,6 +39,9 @@
 .size--13{
     font-size:13px;
 }
+.bold{
+    font-weight: bold;
+}
 .weight--400{
     font-weight: 400;
 }
